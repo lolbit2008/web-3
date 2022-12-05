@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(red, black);
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+.guide {
+    width: 200px
+
+}
+.me {
+ display: flex;
+ justify-content: space-evenly;
+ background:#14213d;
+ margin: 50px auto;
+ align-items: center;
+ padding: 0;
+ border-bottom: 7px solid #fca311; 
+ color: #ffffff;
+ width: 350px;
+}
+
+#photo {
+    width: 100px;
+    height: 150px;
+    
+}
+
+.hero {
+    margin: -10px 0; 
+    height: 350px;
+    background-image: url(https://visitmineralwells.org/wp-content/uploads/2018/09/MWCOC-Website-Downtown.jpg) ;
+    
+}
+
+.act {
+    margin-top: 400px; 
+     
+}
+
+#main {
+    
+    width: 100px
+}
+.main-text {
+    margin: -250px 0;
+    text-shadow: 0 0 4px black;
+}
