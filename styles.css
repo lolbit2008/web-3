@@ -53,3 +53,26 @@ img {
     margin: -250px 0;
     text-shadow: 0 0 4px black;
 }
+
+img {
+    @media screen and (max-width: 767px){   
+    #main-img{      
+        content:url("img/mobile_homepage.jpg");
+    } 
+}
+@media screen and (min-width: 768px) {      
+    #main-img{      
+       content:url("img/tablet_homepage.jpg");
+     } 
+} 
+@media (min-width: 992px){      
+      #main-img{        
+          content:url("img/desktop_homepage.jpg");  
+      } 
+}
+@media (min-width: 1200px) {    
+     #main-img{         
+         content:url("img/desktop_homepage.jpg");   
+     } 
+}
+
