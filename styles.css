@@ -33,6 +33,7 @@ img {
 .hero {
     margin: -10px 0; 
     height: 350px;
+    background-size: cover;
     background-image: url(https://visitmineralwells.org/wp-content/uploads/2018/09/MWCOC-Website-Downtown.jpg) ;
     
 }
